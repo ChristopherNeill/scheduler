@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
+
+body {
+  background-color: #b2cbe4;
+  font-family: 'Archivo', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  padding-bottom: 60px;
+}
+
+.container {
+  background-color: #2c3e50;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+textarea {
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  resize: none;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+  background-color: #2c3e50;
+  color: #ffffff;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: none;
+  border-bottom: 1px dashed #ffffff;
+}
+
+.hour {
+  font-size: 33px;
+  background-color: #2c3e50;
+  color: #ffffff;
+  border-top: 1px dashed #ffffff;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  /* border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5; */
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+
+}
